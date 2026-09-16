@@ -1,0 +1,19 @@
+# Credentials -- never commit these. Part 3 reads WANDB_API_KEY from here
+# when it is not running in Colab.
+.env
+.env.*
+*.key
+
+# Weights & Biases local run directory
+wandb/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Keras / dataset caches
+*.keras
+*.h5
